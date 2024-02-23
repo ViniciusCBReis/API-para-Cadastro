@@ -21,10 +21,13 @@ public class Usuario implements Serializable {
     private String EMAIL;
     private String Telefone; //Foi levado em consideração a inserção de (dd) ou o regional (+55)
     private String Senha; //Considerando senha Alfanumérica
+    private String Genero; 
 
     private LocalDate Aniversario;
 
+    
     public Usuario(){}
+
 
     public long getId() {
         return id;
@@ -72,6 +75,18 @@ public class Usuario implements Serializable {
 
     public void setAniversario(LocalDate aniversario) {
         Aniversario = aniversario;
+    }
+
+
+
+    public String getGenero() {
+        return Genero;
+    }
+
+
+
+    public void setGenero(String genero) {
+        Genero = genero;
     }
 
 
