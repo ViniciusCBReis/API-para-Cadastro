@@ -86,5 +86,12 @@ public class UsuarioResource {
         this.nome = nome;
     }
 
+
+    @Override
+    public String toString() {
+        return "UsuarioResource [nome=" + nome + ", aniversario=" + aniversario + ", genero=" + genero + ", email="
+                + email + ", telefone=" + telefone + ", senha=" + senha + "]";
+    }
+
     
 }
