@@ -19,7 +19,7 @@ public class UsuarioConversor {
 
             user.setAniversario(aniversario);
 
-            user.setSenha(usuarioResource.getNome());
+            user.setSenha(usuarioResource.getSenha());
 
             user.setEMAIL(usuarioResource.getEmail());
 

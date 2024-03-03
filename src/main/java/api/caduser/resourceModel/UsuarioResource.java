@@ -82,15 +82,20 @@ public class UsuarioResource {
     }
 
 
-    public UsuarioResource(String nome) {
+    public UsuarioResource(String nome, String aniversario, String genero, String email, String telefone,
+            String senha) {
         this.nome = nome;
+        this.aniversario = aniversario;
+        this.genero = genero;
+        this.email = email;
+        this.telefone = telefone;
+        this.senha = senha;
     }
 
 
     @Override
     public String toString() {
-        return "UsuarioResource [nome=" + nome + ", aniversario=" + aniversario + ", genero=" + genero + ", email="
-                + email + ", telefone=" + telefone + ", senha=" + senha + "]";
+        return "UsuarioResource [nome=" + nome + ", aniversario=" + aniversario + ", genero=" + genero + ", email=" + email + ", telefone=" + telefone + ", senha=" + senha + "]";
     }
 
     
