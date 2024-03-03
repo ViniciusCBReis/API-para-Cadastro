@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 import org.springframework.stereotype.Component;
 
+import api.caduser.datasourceModel.Usuario;
 import api.caduser.exception.UsuarioResourceException;
-import api.caduser.model.Usuario;
 import api.caduser.resourceModel.UsuarioResource;
 
 @Component

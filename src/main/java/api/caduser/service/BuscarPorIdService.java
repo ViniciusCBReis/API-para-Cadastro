@@ -4,8 +4,8 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import api.caduser.datasourceModel.Usuario;
 import api.caduser.exception.UsuarioNotFoundException;
-import api.caduser.model.Usuario;
 import api.caduser.repository.UsuarioRepository;
 
 public class BuscarPorIdService {

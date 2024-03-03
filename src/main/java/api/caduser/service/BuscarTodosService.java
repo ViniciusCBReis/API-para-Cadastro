@@ -6,8 +6,7 @@ import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
-import api.caduser.model.Usuario;
+import api.caduser.datasourceModel.Usuario;
 import api.caduser.repository.UsuarioRepository;
 
 @Service

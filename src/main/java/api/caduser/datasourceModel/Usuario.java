@@ -1,4 +1,4 @@
-package api.caduser.model;
+package api.caduser.datasourceModel;
 
 import java.io.Serializable;
 import java.time.LocalDate;

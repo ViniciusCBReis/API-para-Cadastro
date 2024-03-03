@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import api.caduser.datasourceModel.Usuario;
 import api.caduser.exception.UsuarioNotFoundException;
-import api.caduser.model.Usuario;
 import api.caduser.resourceModel.UsuarioResource;
 import api.caduser.service.BuscarPorIdService;
 import api.caduser.service.BuscarTodosService;

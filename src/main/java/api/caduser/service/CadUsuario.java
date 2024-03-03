@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.yaml.snakeyaml.internal.Logger;
 
+import api.caduser.datasourceModel.Usuario;
 import api.caduser.exception.UsuarioResourceException;
-import api.caduser.model.Usuario;
 import api.caduser.repository.UsuarioRepository;
 import api.caduser.resourceModel.UsuarioResource;
 
