@@ -3,11 +3,13 @@ package api.caduser.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import api.caduser.datasourceModel.Usuario;
 import api.caduser.exception.UsuarioNotFoundException;
 import api.caduser.repository.UsuarioRepository;
 
+@Service
 public class BuscarPorIdService {
     
     @Autowired
