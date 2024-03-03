@@ -30,6 +30,7 @@ public class BuscarPorIdService {
         return optionalUsuario;
     }
 
+    @SuppressWarnings("null")
     public void deletarPorId(Long id)
      throws UsuarioNotFoundException{
         Optional<Usuario> optionalUsuario = getOptionalUsuario(id);

@@ -19,6 +19,7 @@ public class CadUsuario {
     @Autowired
     private UsuarioConversor service;
 
+    @SuppressWarnings("null")
     public void cadastro(UsuarioResource usuarioResource){
         try{
 
